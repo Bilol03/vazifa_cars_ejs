@@ -10,7 +10,7 @@ let getAbout = (req, res) => {
 };
 
 let getService = (req, res) => {
-  res.render("service");
+  res.render("service", {title: "Avtomobil xizmatlari" });
 };
 
 let getbooking = (req, res) => {
