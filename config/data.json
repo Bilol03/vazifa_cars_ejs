@@ -1,0 +1,14 @@
+[
+    {
+        "serviceId": 1,
+        "seviceName": "Sifatli Moshina Ta'mirlash Xizlatlari Markazi",
+        "imgPath": "carousel-1",
+        "bgImgPath": "carousel-bg-1.jpg"
+    },
+    {
+        "serviceId": 1,
+        "seviceName": "Sifatli Moshina Yuvish Xizlatlari Markazi",
+        "imgPath": "carousel-2",
+        "bgImgPath": "carousel-bg-2.jpg"
+    }
+]

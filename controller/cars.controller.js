@@ -1,9 +1,21 @@
+import { getData } from "../services/cars.service.js"
 
 let getHome = (req, res) => {
-    res.render('index')
+    let datas = getData('data')
+    res.render('index', {title: "Avtomobil xizmatlari", datas: datas})
 }
 
+let getAbout = (req, res) => {
+    res.render('about', {title: "Avtomobil xizmatlari"})
+}
+
+let getService = (req, res) => {
+    res.render('service')
+}
 
 export {
-    getHome
+    getHome,
+    getAbout,
+    getService,
+
 }
