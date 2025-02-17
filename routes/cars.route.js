@@ -1,13 +1,17 @@
 import { Router } from "express";
-import { getHome, getAbout, getService} from '../controller/cars.controller.js'
+import {
+  getHome,
+  getAbout,
+  getService,
+  getbooking,
+} from "../controller/cars.controller.js";
 
-let route = Router()
+let route = Router();
 
 route
-    .get('/', getHome)
-    .get('/about', getAbout)
-    .get('/service', getService)
+  .get("/", getHome)
+  .get("/about", getAbout)
+  .get("/service", getService)
+  .get("/booking", getbooking);
 
-
-
-export default route
+export default route;
