@@ -1,8 +1,7 @@
 import { getData } from "../services/cars.service.js";
 
 let getHome = (req, res) => {
-  let datas = getData("data")
-  res.render("index", { title: "Avtomobil xizmatlari", datas: datas });
+  res.render("index", { title: "Avtomobil xizmatlari"});
 };
 
 
