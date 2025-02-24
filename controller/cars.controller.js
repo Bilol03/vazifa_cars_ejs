@@ -1,12 +1,23 @@
 import { getData } from "../services/cars.service.js";
 
 let getHome = (req, res) => {
-  res.render("index", { title: "Avtomobil xizmatlari"});
+  let services = getData('service')
+  let technics = getData('technics')
+  
+  res.render("index", { 
+    title: "Avtomobil xizmatlari", 
+    services: services,
+    technics: technics
+  });
 };
 
 
 let getAbout = (req, res) => {
-  res.render("about", { title: "Avtomobil xizmatlari" });
+  let technics = getData('technics')
+  res.render("about", { 
+    title: "Avtomobil xizmatlari",
+    technics: technics
+  });
 };
 
 let getService = (req, res) => {
@@ -18,7 +29,13 @@ let getbooking = (req, res) => {
 };
 
 let team = (req, res) => {
-  res.render("team", { title: "Avtomobil xizmatlari" });
+  let technics = getData('technics')
+
+  res.render("team", {
+    title: "Avtomobil xizmatlari",
+    technics: technics
+
+  });
 };
 
 let gettestimonial = (req, res) => {

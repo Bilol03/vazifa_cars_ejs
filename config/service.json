@@ -1,0 +1,26 @@
+[
+    {
+        "serviceId": 1,
+        "serviceName": "Tashxis Testi",
+        "imgPath": "service-1.jpg"
+
+    },
+    {
+        "serviceId": 2,
+        "serviceName": "Motor Xizmatlari",
+        "imgPath": "service-2.jpg"
+
+    },
+    {
+        "serviceId": 3,
+        "serviceName": "Shina Almashtirish",
+        "imgPath": "service-3.jpg"
+
+    },
+    {
+        "serviceId": 4,
+        "serviceName": "Yog' Almashtirish",
+        "imgPath": "service-4.jpg"
+
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "technicId": 1,
+        "technicName": "Birnima",
+        "technikLastname": "Birnimayev",
+        "job": "Tashxischi",
+        "imgPath": "team-1.jpg"
+    },
+    {
+        "technicId": 2,
+        "technicName": "Canady",
+        "technikLastname": "John",
+        "job": "Motorchi",
+        "imgPath": "team-2.jpg"
+    },
+    {
+        "technicId": 3,
+        "technicName": "Trump",
+        "technikLastname": "Donald",
+        "job": "Shinasoz",
+        "imgPath": "team-3.jpg"
+    },
+    {
+        "technicId": 1,
+        "technicName": "Bayden",
+        "technikLastname": "Joe",
+        "job": "Yog' Almashtiruvchisi",
+        "imgPath": "team-1.jpg"
+    }
+]
