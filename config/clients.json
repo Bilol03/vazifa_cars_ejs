@@ -1,0 +1,30 @@
+[
+    {
+        "clientId": 1,
+        "clientName": "Xonim Afandi",
+        "imgPath": "testimonial-1.jpg",
+        "profession": "Uy bekasi",
+        "comment": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+        "clientId": 2,
+        "clientName": "Mister",
+        "imgPath": "testimonial-2.jpg",
+        "profession": "Quloq",
+        "comment": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+        "clientId": 3,
+        "clientName": "Janob",
+        "imgPath": "testimonial-3.jpg",
+        "profession": "Yuguruvchi",
+        "comment": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+        "clientId": 4,
+        "clientName": "Qiz",
+        "imgPath": "testimonial-4.jpg",
+        "profession": "O'qituvchi",
+        "comment": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    }
+]

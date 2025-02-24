@@ -1,19 +1,19 @@
 import { getData } from "../services/cars.service.js";
 
+let technics = getData('technics')
+let clients  = getData('clients')
+
 let getHome = (req, res) => {
-  let services = getData('service')
-  let technics = getData('technics')
-  
+
   res.render("index", { 
     title: "Avtomobil xizmatlari", 
-    services: services,
-    technics: technics
+    technics: technics,
+    clients: clients
   });
 };
 
 
 let getAbout = (req, res) => {
-  let technics = getData('technics')
   res.render("about", { 
     title: "Avtomobil xizmatlari",
     technics: technics
@@ -21,7 +21,10 @@ let getAbout = (req, res) => {
 };
 
 let getService = (req, res) => {
-  res.render("service", {title: "Avtomobil xizmatlari" });
+  res.render("service", {
+    title: "Avtomobil xizmatlari",
+    clients: clients
+  });
 };
 
 let getbooking = (req, res) => {
@@ -29,8 +32,6 @@ let getbooking = (req, res) => {
 };
 
 let team = (req, res) => {
-  let technics = getData('technics')
-
   res.render("team", {
     title: "Avtomobil xizmatlari",
     technics: technics
@@ -39,7 +40,11 @@ let team = (req, res) => {
 };
 
 let gettestimonial = (req, res) => {
-  res.render("testimonial", { title: "Avtomobil xizmatlari" });
+
+  res.render("testimonial", { 
+    title: "Avtomobil xizmatlari",
+    clients: clients
+  });
 };
 
 let getContact = (req, res) => {
